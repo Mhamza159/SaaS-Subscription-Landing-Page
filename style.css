@@ -85,6 +85,10 @@ body {
     padding: 23px;
 }
 
+.header i {
+    display: none;
+}
+
 .company-name p {
     width: 154px;
     font-family: var(--font-rubik);
@@ -204,6 +208,12 @@ body {
 
 .hero-image {
     margin-top: 100px;
+    width: 844px;
+    height: auto;
+}
+
+.hero-image img {
+    width: 100%;
 }
 
 
@@ -399,6 +409,17 @@ body {
     width: 573px;
 
 
+}
+
+.content02-data-img {
+    width: 50%;
+    max-width: 486px;
+}
+
+.content02-data-img img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .content02-data {
